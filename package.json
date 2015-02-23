@@ -1,6 +1,6 @@
 {
   "name": "tessel-camera-s3",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Modularize uploading tessel photos to aws s3",
   "main": "index.js",
   "scripts": {
