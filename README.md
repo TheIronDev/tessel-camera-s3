@@ -20,7 +20,7 @@ An Amazon AWS account with an s3 key, secret, and bucket.
 ## Example Usage:
 
 ```javascript
-var uploadPicture = require('tessel-camera-s3');
+var uploadImage = require('tessel-camera-s3');
 
 camera.takePicture(function(err, image) {
     if (err) {
@@ -32,7 +32,7 @@ camera.takePicture(function(err, image) {
         bucket:'zzzzzzzzzzzz'
     };
 
-    uploadPicture(image, 'test.jpg', s3Config, function(err, res) {
+    uploadImage(image, 'test.jpg', s3Config, function(err, res) {
         if (err) {
             return console.log('There was an error :( ');
         }
