@@ -1,0 +1,22 @@
+{
+  "name": "tessel-camera-s3",
+  "version": "1.0.0",
+  "description": "Modularize uploading tessel photos to aws s3",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TheIronDeveloper/tessel-camera-s3.git"
+  },
+  "author": "Tyler Stark <TheIronDeveloper@gmail.com> (http://www.theirondeveloper.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TheIronDeveloper/tessel-camera-s3/issues"
+  },
+  "homepage": "https://github.com/TheIronDeveloper/tessel-camera-s3",
+  "dependencies": {
+    "knox": "^0.9.2"
+  }
+}
